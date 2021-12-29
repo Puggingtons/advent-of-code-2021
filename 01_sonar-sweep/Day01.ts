@@ -1,4 +1,4 @@
-import Day from "../../shared/Day";
+import Day from "../shared/Day";
 
 export default class Day01 extends Day {
 
