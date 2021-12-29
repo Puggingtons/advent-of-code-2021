@@ -5,8 +5,8 @@ export default abstract class Day {
     console.log("Running " + title);
   }
 
-  abstract runPart1(): void;
-  abstract runPart2(): void;
+  abstract runPart1(): any;
+  abstract runPart2(): any;
 
   protected readFile(path: string): string[] {
     console.log("reading " + path);
